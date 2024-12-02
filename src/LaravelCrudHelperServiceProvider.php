@@ -16,7 +16,5 @@ class LaravelCrudHelperServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-crud-helper');
-        Paginator::useBootstrapFive();
-        Paginator::useBootstrapFour();
     }
 }

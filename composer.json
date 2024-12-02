@@ -1,5 +1,5 @@
 {
-    "name": "dev4b-br/laravel-crud-helper",
+    "name": "munizeverton/laravel-crud-helper",
     "type": "library",
     "autoload": {
         "psr-4": {

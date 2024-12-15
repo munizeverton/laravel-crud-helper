@@ -13,6 +13,7 @@ class Title implements Content
     public function __construct(?string $title = null, ?array $classes = [])
     {
         $this->title = $title;
+        $this->classes = $classes;
     }
 
     public function render()
